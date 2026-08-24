@@ -1,0 +1,22 @@
+{
+  "name": "licence-path",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build:ux4g": "node scripts/build-ux4g-lean.mjs",
+    "build": "npm run build:ux4g && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "ux4g-web-components": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^8.0.0"
+  }
+}
